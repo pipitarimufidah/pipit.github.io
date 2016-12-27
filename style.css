@@ -1,0 +1,301 @@
+.header{
+	height: 80px;
+	background-color: teal;
+}
+#teks{
+	color: white;
+	font-size: 30px;
+	line-height: 40px;
+	padding-top: 10px;
+}
+.tentang{
+	width: 960px;
+	height: 100px;
+	background-color: white;
+	margin-left: 165px;
+	margin-top: 40px;
+	border-radius: 3px;
+	border:2px solid lightblue;
+	text-align: center;
+	font-family: impact;
+	font-size: 40px;
+}
+.foto{
+	width: 80px;
+	height: 100px;
+
+}
+.konten{
+	height: auto;
+}
+body{
+background-image: url('tekstur.jpg');
+}
+
+.menu1{
+	width: 350px;
+	height: 300px;
+	background-color: green;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-family: impact;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.menu2{
+	width: 380px;
+	height: 300px;
+	background-color: blue;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-family: impact;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.menu3{
+	width: 350px;
+	height: 300px;
+	background-color: yellow;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-family: impact;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.menu4{
+	width: 350px;
+	height: 300px;
+	background-color: orange;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-family: impact;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.menu5{
+	width: 380px;
+	height: 300px;
+	background-color: red;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-family: impact;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.menu6{
+	width: 350px;
+	height: 300px;
+	background-color: purple;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	font-family: impact;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.menu1:hover{
+	background-color: yellow;
+}
+.menu2:hover{
+	background-color: purple;
+}
+.menu3:hover{
+	background-color: red;
+}
+.menu4:hover{
+	background-color: blue;
+}
+.menu5:hover{
+	background-color: green;
+}
+.menu6:hover{
+	background-color: orange;
+}
+
+.icon{
+margin: 10px;
+}
+.footer{
+	margin-top: 10px;
+	height: 100px;
+	background-color: teal;
+	padding: 30px;
+	font-family: calibri;
+}
+.clear{
+	clear: both;
+}
+.judul{
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+	margin: 20px;
+}
+
+.edu{
+	height: 100px;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 30%;
+	border-bottom: 2px solid green;
+}
+.edu-icon{
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+.date-icon{
+	width: 50px;
+	height: 50px;
+}
+.left{
+	float: left;
+}
+.teal{
+	color: teal;
+}
+.white{
+	color: white;
+}
+.blue{
+	color: blue;
+}
+.green{
+	color: green;
+}
+.red{
+	color: red;
+}
+.brown{
+	color: brown;
+}
+.date{
+	font-size: 16px;
+	font-family: arial;
+}
+.right{
+	float: right;
+	font-family: aharoni;
+}
+.menu-utama{
+height: 30px;
+width: 150px;
+background-color: #1a53ff;
+border-radius: 3px;
+border:2px solid #3366ff;
+font-family: impact;
+font-size: 15px;
+cursor: pointer;
+margin-top:20px;
+}
+.menu-utama:hover{
+	background-color: green;
+	color: white;
+}
+.next{
+	width: 50px;
+	height: 50px;
+margin-top: 20px;
+cursor: pointer;
+}
+.deskripsi{
+	height: 150px;
+	text-align: center;
+	font-family: calibri;
+	font-size: 18px;
+	font-style: bold;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	background-color: teal;
+	border: 3px solid white;
+	margin-top: 10px;
+	padding: 10px;
+}
+.foto{
+	width: 150px;
+	height: 150px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.batang{
+	background-color: brown;
+	height: 20px;
+	border-radius: 10px;
+	margin: 30px;
+	margin-left: 28%;
+}
+.chart1{
+	width:60%; 
+}
+.chart2{
+	width:50%;
+}
+.chart3{
+width: 45%;
+}
+.chart4{
+	width:40%;
+}
+.chart5{
+	width: 30%;
+}
+.center{
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.diri{
+	font-family: calibri;
+	font-size: 17px;
+
+}
+.icon-icon{
+	width: 80px;
+	height: 95px;
+}
+.story{
+	width: 270px;
+	height: 230px;
+	background-color: teal;
+	border:2px solid white;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 5px;
+}
+.icon-story{
+	margin-left:45% ;
+	width: 90px;
+	height: 100px;
+}
+.icon-story:hover{
+	border: 2px solid brown;
+}
+.petunjuk{
+	margin-left:35% ;
+	width: 350px;
+	height: 90px;
+	background-color: brown;
+	border:2px solid white;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 18px;
+	margin-bottom: 5%;
+}

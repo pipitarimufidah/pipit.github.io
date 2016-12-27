@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Portofolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="media.css">
+<script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div class="header">
+<marquee behavior="alternate" scrollamount="5" id="teks">
+PORTOFOLIO
+</marquee>	
+</div>
+<div id="konten" class="konten">
+<div id="div1" class="white deskripsi" style="display:none;">
+  <p>Nama Saya Pipit Ari Mufidah, biasa dipanggil dengan "Pipit". Saya adalah seorang mahasiswi Teknik Informatika di Universitas Tekonolgi Yogyakarta. Saat ini saya sedang menempuh pendidikan S1. Beberapa hal lain tentang saya dapat dilihat pada pilihan menu dibawah ini.
+  </p>
+  <div>
+<div>
+  <img src="gambar/1.jpg" class="left foto">
+</div>
+<div>
+  <img src="gambar/1.jpg" class="right foto">
+</div>
+</div>
+</div>
+<br><br><br><br><br>
+<div>
+<div class="menu1" id="menu1">
+<div class="icon" id="div1">
+<img src="gambar/school.ico" id="menu1">
+</div>
+	Pendidikan
+</div>
+<div class="menu2" id="menu2">
+<div class="icon">
+	<img src="gambar/pengalaman.png">
+</div>
+	Data Diri
+</div>
+<div class="menu3" id="menu3">
+<div class="icon">
+	<img src="gambar/keahlian.png">
+</div>
+	Keahlian
+</div>
+<div class="menu4" id="menu4">
+<div class="icon">
+	<img src="gambar/hobi.ico">
+</div>
+	Hobi
+</div>
+<div class="menu5" id="menu5">
+<div class="icon">
+	<img src="gambar/grafik.png">
+</div>
+	Cerita Sukses
+</div>
+<div class="menu6" id="menu6">
+<div class="icon">
+	<img src="gambar/Communicate.ico">
+</div>
+	Kontak
+</div>
+</div>
+
+</div>
+<div class="clear"></div>
+<div class="footer white"><b>Copyright @2016. Allright Reserved<br>
+By Pipit Ari Mufidah (5130411159)</b></div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+
+      $('#menu1').click(function(event){
+        event.preventDefault();
+        $.ajax({
+          url:'konten/pendidikan.html',
+          type:'GET',
+          dataType:'html',
+          data:'',
+          success:function(data){
+            $('#konten').html(data);
+            console.log('sukses');
+
+          },
+          error:function(){
+            console.log('Error');
+          }
+
+         
+        });//end ajax
+      });//end click
+  });//end document ready
+  </script>
+
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    ///menu-daftar
+
+      $('#menu2').click(function(event){
+        event.preventDefault();
+        $.ajax({
+          url:'konten/data.html',
+          type:'GET',
+          dataType:'html',
+          data:'',
+          success:function(data){
+            $('#konten').html(data);
+            console.log('sukses');
+
+          },
+          error:function(){
+            console.log('Error');
+          }
+
+         
+        });//end ajax
+      });//end click
+  });//end document ready
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    ///menu-daftar
+
+      $('#menu3').click(function(event){
+        event.preventDefault();
+        $.ajax({
+          url:'konten/keahlian.html',
+          type:'GET',
+          dataType:'html',
+          data:'',
+          success:function(data){
+            $('#konten').html(data);
+            console.log('sukses');
+
+          },
+          error:function(){
+            console.log('Error');
+          }
+
+         
+        });//end ajax
+      });//end click
+  });//end document ready
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    ///menu-daftar
+
+      $('#menu4').click(function(event){
+        event.preventDefault();
+        $.ajax({
+          url:'konten/suka.html',
+          type:'GET',
+          dataType:'html',
+          data:'',
+          success:function(data){
+            $('#konten').html(data);
+            console.log('sukses');
+
+          },
+          error:function(){
+            console.log('Error');
+          }
+
+         
+        });//end ajax
+      });//end click
+  });//end document ready
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    ///menu-daftar
+
+      $('#menu5').click(function(event){
+        event.preventDefault();
+        $.ajax({
+          url:'konten/story.html',
+          type:'GET',
+          dataType:'html',
+          data:'',
+          success:function(data){
+            $('#konten').html(data);
+            console.log('sukses');
+
+          },
+          error:function(){
+            console.log('Error');
+          }
+
+         
+        });//end ajax
+      });//end click
+  });//end document ready
+  </script>
+
+   <script type="text/javascript">
+  $(document).ready(function(){
+    ///menu-daftar
+
+      $('#menu6').click(function(event){
+        event.preventDefault();
+        $.ajax({
+          url:'konten/kontak.html',
+          type:'GET',
+          dataType:'html',
+          data:'',
+          success:function(data){
+            $('#konten').html(data);
+            console.log('sukses');
+
+          },
+          error:function(){
+            console.log('Error');
+          }
+
+         
+        });//end ajax
+      });//end click
+  });//end document ready
+  </script>
+
+<script>
+$(document).ready(function(){
+        $("#div1").fadeIn();
+});
+</script>
+     
+
+</body>
+</html>
